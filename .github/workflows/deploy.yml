@@ -27,4 +27,4 @@ jobs:
             --exclude '.DS_Store' \
             -e "ssh -p ${{ secrets.SFTP_PORT }}" \
             ./ \
-            ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_HOST }}:/home/mnkys/viney.id.au/
+            ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_HOST }}:/home/mnkys/saltandsteel.au/
